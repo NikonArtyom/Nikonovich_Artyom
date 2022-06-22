@@ -118,9 +118,9 @@
                 <form name="мультисписки" action="http://sc.it-academy.by/fe/form.php" method="post"></form>
                 <fieldset>
                     <legend>Строка поиска</legend>
-                    <input type="text" name="text" placeholder="Только русские буквы" pattern="/^[А-ЯЁ][а-яё]*$/"> <br>
+                    <input type="text" name="text" placeholder="Только русские буквы" pattern="[А-ЯЁ][а-яё]"> <br>
                     Телефонный номер в формате +ХХХ-ХХ-ХХХХХХХ, где Х - любое число <br>
-                    <input type="text" name="number" placeholder="+375-29-1234567" pattern="^(\+375)(29|25|44|33)(\d{3})(\d{2})(\d{2})$"> <br>
+                    <input type="text" name="number" placeholder="+375-29-1234567" pattern="(\+375)(29|25|44|33)(\d{3})(\d{2})(\d{2})"> <br>
                     <input type="submit" name="проверить" value="Проверить">
                 </fieldset>
             </td>
