@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Заполните анкету</h1>
+    <form name="простая форма аторизации" action="http://sc.it-academy.by/fe/form.php" method="post"></form>
+    <fieldset>
+        <fieldset>
+            <legend>Личные данные</legend>
+            <input type="text" name="second name" required autofocus maxlength="25" placeholder="Фамилия" pattern="[А-ЯЁ][а-яё]"> <br>
+            <input type="text" name="first name" required maxlength="20" placeholder="Имя" pattern="[А-ЯЁ][а-яё]"> <br>
+            <input type="text" name="otchestvo" required maxlength="24" placeholder="Отчество" pattern="[А-ЯЁ][а-яё]"> <br>
+        </fieldset>
+        <fieldset>
+            <legend>Паспортные данные</legend>
+            <input type="text" name="буквы" size="2" required maxlength="2" placeholder="AA" pattern="[A-Z]">
+            <input type="text" name="цифры" size="7" required maxlength="7" placeholder="1234567" pattern="[0-7]" >
+        </fieldset>
+        <fieldset>
+            <legend>Дата рождения</legend>
+        </fieldset>
+    </fieldset>
+</body>
+</html>
