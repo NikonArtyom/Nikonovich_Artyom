@@ -1,0 +1,52 @@
+div.nine {
+    background-image: url('Cards.png');
+    background-repeat: no-repeat;
+    background-position: -433px -1383px;
+    width: 138px;
+    height: 199px;
+    display: inline-block;
+}
+
+div.queen {
+    background-image: url('Cards.png');
+    background-repeat: no-repeat;
+    background-position: -433px -1783px;
+    width: 138px;
+    height: 199px;
+    display: inline-block;
+    position: relative;
+    right: 50px;
+}
+
+div.ninetwo {
+    background-image: url('Cards.png');
+    background-repeat: no-repeat;
+    background-position: -290px -1383px;
+    width: 138px;
+    height: 199px;
+    display: inline-block;
+    position: relative;
+    right: 90px;
+}
+
+div.ace {
+    background-image: url('Cards.png');
+    background-repeat: no-repeat;
+    background-position: -142px -2179px;
+    width: 138px;
+    height: 199px;
+    display: inline-block;
+    position: relative;
+    right: 130px;
+}
+
+div.joker {
+    background-image: url('Cards.png');
+    background-repeat: no-repeat;
+    background-position: -286px -2378px;
+    width: 138px;
+    height: 199px;
+    display: inline-block;
+    position: relative;
+    right: 170px;
+}
