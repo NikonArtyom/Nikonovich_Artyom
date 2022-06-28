@@ -1,4 +1,4 @@
-div.nine {
+.nine {
     background-image: url('Cards.png');
     background-repeat: no-repeat;
     background-position: -433px -1383px;
@@ -7,7 +7,7 @@ div.nine {
     display: inline-block;
 }
 
-div.queen {
+.queen {
     background-image: url('Cards.png');
     background-repeat: no-repeat;
     background-position: -433px -1783px;
@@ -16,7 +16,7 @@ div.queen {
     display: inline-block;
 }
 
-div.ninetwo {
+.ninetwo {
     background-image: url('Cards.png');
     background-repeat: no-repeat;
     background-position: -290px -1383px;
@@ -25,7 +25,7 @@ div.ninetwo {
     display: inline-block;
 }
 
-div.ace {
+.ace {
     background-image: url('Cards.png');
     background-repeat: no-repeat;
     background-position: -142px -2179px;
@@ -34,7 +34,7 @@ div.ace {
     display: inline-block;
 }
 
-div.joker {
+.joker {
     background-image: url('Cards.png');
     background-repeat: no-repeat;
     background-position: -286px -2378px;

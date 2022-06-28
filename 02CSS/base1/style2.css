@@ -7,7 +7,7 @@ div.nine {
     display: inline-block;
 }
 
-div.queen {
+.queen {
     background-image: url('Cards.png');
     background-repeat: no-repeat;
     background-position: -433px -1783px;
@@ -18,7 +18,7 @@ div.queen {
     right: 50px;
 }
 
-div.ninetwo {
+.ninetwo {
     background-image: url('Cards.png');
     background-repeat: no-repeat;
     background-position: -290px -1383px;
@@ -29,7 +29,7 @@ div.ninetwo {
     right: 90px;
 }
 
-div.ace {
+.ace {
     background-image: url('Cards.png');
     background-repeat: no-repeat;
     background-position: -142px -2179px;
@@ -40,7 +40,7 @@ div.ace {
     right: 130px;
 }
 
-div.joker {
+.joker {
     background-image: url('Cards.png');
     background-repeat: no-repeat;
     background-position: -286px -2378px;
