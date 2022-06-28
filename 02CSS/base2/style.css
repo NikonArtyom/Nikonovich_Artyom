@@ -1,0 +1,20 @@
+ul.rimskie {
+    list-style-type: upper-roman;
+    width: 350px;
+    font-weight: bold;
+}
+ul.i{
+    list-style-type: lower-roman;
+    width: 350px;
+    font-weight: normal;
+}
+div {
+    background: black;
+    width: 400px;
+    overflow: auto;
+
+}
+code {
+    color: green;
+}
+
