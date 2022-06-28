@@ -11,6 +11,7 @@ ul.i{
 div {
     background: black;
     width: 400px;
+    /* не понял как поставить максимальную высоту контейнера: 4-е строки */
     overflow: auto;
 
 }
