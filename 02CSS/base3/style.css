@@ -1,0 +1,28 @@
+.navigation {
+    width: 15em;
+    background-color: aquamarine;
+    margin-bottom: 0.2em;
+    float: left;
+}
+
+.article {
+    background-color: chocolate;
+    width: auto;
+    overflow: hidden;
+    margin-bottom: 0.2em;
+}
+
+.footer {
+    width: auto;
+    height: auto;
+    background-color: coral;
+
+}
+
+.clear {
+    clear: both;
+}
+
+.image {
+    float: right;
+}
