@@ -1,0 +1,76 @@
+.menu1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menu2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    display: none;
+    position: absolute;
+    left: 439px;
+    top: 28px;
+}
+
+div.menu1 > div:hover .menu2 {
+    display: block;
+}
+
+div.menu1 > div {
+    text-align: center;
+    border: solid black 2px;
+    background-color: aqua;
+    width: 130px;
+
+}
+div.menu2 > div {
+    text-align: center;
+    border: solid black 2px;
+    background-color: rgb(0, 129, 129);
+    width: 130px;
+}
+
+@media all and (max-width: 960px) {
+    .menu1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+    }
+
+    .menu2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        display: none;
+        position: absolute;
+        left: 140px;
+        top: 30px;
+    }
+
+    div.menu1 > div:hover .menu2 {
+        display: block;
+    }
+
+    div.menu1 > div {
+        text-align: center;
+        border: solid black 2px;
+        background-color: aqua;
+        width: 130px;
+
+    }
+    div.menu2 > div {
+        text-align: center;
+        border: solid black 2px;
+        background-color: rgb(0, 129, 129);
+        width: 130px;
+    }
+
+}
