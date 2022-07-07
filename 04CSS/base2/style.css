@@ -1,0 +1,20 @@
+tr:first-child  {
+background-color: darkgray;
+text-align: center;
+}
+
+tr:nth-child(1n+2) td {
+    border-bottom: dotted gray 2px;
+}
+
+td:nth-child(-n+5) {
+    border-right: dotted gray 2px;
+}
+
+tr:hover {
+    background-color: dimgray;
+}
+
+div {
+    margin-left: 163px;
+}
